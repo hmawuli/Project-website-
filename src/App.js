@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Nav from './components/Nav';
 import { useState } from 'react';
 
 import './App.css';
@@ -21,6 +22,8 @@ function App() {
         return <Contact />;
       default:
         return <Home />;
+        case 'nav':
+        return <Nav/>;
     }
   };
   return (
