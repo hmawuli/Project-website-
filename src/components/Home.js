@@ -1,6 +1,5 @@
 import React from "react";
 import image from "../Image/coding.jpg"; // Replace with the actual path to your image
-
 function Home() {
   return (
     <div >
@@ -11,6 +10,7 @@ function Home() {
           world. Explore and discover the possibilities with cutting-edge
           technology!
         </p>
+        
         {/* Add more content as needed */}
       </div>
       <img

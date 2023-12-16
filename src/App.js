@@ -4,8 +4,11 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
+import Project from './components/Project';
 import { useState } from 'react';
+import "./components/Header.css";
+import "./components/Navbar.css";
 
 import './App.css';
 
@@ -22,8 +25,10 @@ function App() {
         return <Contact />;
       default:
         return <Home />;
-        case 'nav':
-        return <Nav/>;
+        case 'navbar':
+        return <Navbar/>;
+        case 'project':
+          return <Project/>
     }
   };
   return (

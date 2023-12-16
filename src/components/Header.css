@@ -1,0 +1,27 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 0em;
+  }
+  
+  
+  .nav-section ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-section li {
+    margin-right: 15px;
+    cursor: pointer; /* Add a pointer cursor for clickable items */
+  }
+  
+  .nav-section a {
+    text-decoration: none;
+    color: white;
+  }
+  

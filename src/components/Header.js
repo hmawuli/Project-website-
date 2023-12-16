@@ -8,6 +8,8 @@ function Header({ setCurrentPage }) {
           <li onClick={() => setCurrentPage('home')}>Home</li>
           <li onClick={() => setCurrentPage('about')}>About</li>
           <li onClick={() => setCurrentPage('contact')}>Contact</li>
+          <li onClick={() => setCurrentPage('project')}>Project</li>
+
         </ul>
       </nav>
         </header>

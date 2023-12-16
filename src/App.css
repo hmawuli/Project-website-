@@ -8,20 +8,33 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #423e3e;
   color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
   padding: 0em;
-  text-align: justify;
+}
+
+nav li {
+  margin-right: 80px; /* Adjust spacing between items */
 }
 
 footer {
-  background-color: #0c0505;
+  background-color: #d1d0d0;
   color: white;
-  padding: 0%;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 90%;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 div {
@@ -29,9 +42,9 @@ div {
 }
 
 h2 {
-  color: #333333;
+  color: #050505;
 }
 
 p {
-  color: #666;
+  color: #161414;
 }

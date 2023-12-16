@@ -27,7 +27,7 @@ function About() {
                 <h5> EDUCATIONAL BACKGROUND </h5>
                 Accra Technical University, Ghana
                 <br />
-                HDN in Computer Science. (2018-2021)
+                HND in Computer Science. (2018-2021)
             </p>
             <p>
                 <h5> USEFUL LINKS </h5>
@@ -37,6 +37,7 @@ function About() {
             </p>
             <p>
                 <h5>WORK EXPERIENCE </h5>
+
                 OpenCodex llc – Backend Developer
                 <br />
                 January 2023 – Ongoing
@@ -99,7 +100,7 @@ function About() {
             </p>
             <p>
                 TECHNICAL SKILLS<br/>
-                PHP (Laravel), Java (intermediate), Java Script (React), Python, HTML, MYSQL, XAMPP, CSS, API testing<br/>
+                PHP (Laravel), Java, Java Script (React), Python, HTML, MYSQL, XAMPP, CSS, API testing<br/>
                 using postman, Git, operating system (Linux – Ubuntu and Windows).<br/>
             </p>
             {/* <p>
@@ -108,37 +109,7 @@ function About() {
                 also have experience in back-end development using technologies like PHP(Laravel) and Python.
             </p> */}
             {/* Add more content about your skills and experience */}
-            <h3>Projects</h3>
-            <li>
-                <a href="https://github.com/hmawuli/Invoicing_Api-Interview-Rest_api-" >
-                    Invoicing API
-                </a>
-            </li>
-            <br />
-            <li>
-                <a href="https://github.com/hmawuli/python-mysql">
-                    python with mysql
-                </a>
-            </li>
-            <br />
-            <li>
-                <a href="https://github.com/hmawuli/my-blog">
-                    My blog
-                </a>
-            </li>
-            <br />
-            <li>
-                <a href="https://github.com/hmawuli/Projects-interview-">
-                    login creation in react
-                </a>
-            </li>
-            <br />
-            <li>
-                <a href="https://github.com/hmawuli/food_ordering_system_api">
-                    Food ordering api
-                </a>
-            </li>
-            <br />
+            
         </div>
     );
 }

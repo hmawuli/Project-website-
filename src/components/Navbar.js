@@ -3,7 +3,7 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Assuming you're using React Router for navigation
 
-function Nav() {
+function Navbar() {
   return (
     <nav>
       <ul>
@@ -21,4 +21,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;
